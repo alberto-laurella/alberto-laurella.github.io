@@ -1,0 +1,22 @@
+.game-item-container {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.game-item {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+}
+
+.game-item-content {
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.game-link {
+    text-decoration: none;
+    display: block;
+}
