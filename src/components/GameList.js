@@ -1,5 +1,5 @@
 import React from 'react';
-import GameItem from './components/GameItem';
+import GameItem from './GameItem';
 import './GameList.css';
 
 const GameList = () => {

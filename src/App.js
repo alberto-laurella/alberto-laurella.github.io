@@ -1,11 +1,13 @@
 import './App.css';
-import GameList from './GameList';
+import GameList from './components/GameList';
 
 function App() {
   return (
     <div className="App">
       <h1>Unredeemed Games</h1>
-      <GameList />
+        <main>
+            <GameList />
+        </main>
     </div>
   );
 }
