@@ -5,9 +5,15 @@
 
 .game-item {
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #878282;
     padding: 10px;
     margin: 10px 10px 10px 0;
+    transition: transform 0.2s, box-shadow 0.2s; /* Add a transition effect */
+}
+
+.game-item:hover {
+    transform: scale(1.05); /* Apply a scale transformation on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
 }
 
 .game-item-content {
