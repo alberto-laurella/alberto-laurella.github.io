@@ -1,11 +1,15 @@
 import React from 'react';
 import './GameItem.css';
 
-const GameItem = ({ href, imgSrc, altText, gameTitle }) => {
+const GameItem = ({ href, imgSrc, altText, gameTitle, isMatching }) => {
     const isUrl = imgSrc.startsWith('http');
+    const opacity = isMatching ? 1 : 0; // Opacity value for matching and non-matching items
 
     return (
-        <div className="game-item">
+        <div
+            className={`game-item ${isMatching ? 'matching' : 'not-matching'}`}
+            style={{ opacity }} // Set the opacity directly based on the isMatching value
+        >
             <a
                 href={href}
                 target="_blank"
@@ -19,7 +23,9 @@ const GameItem = ({ href, imgSrc, altText, gameTitle }) => {
                         alt={altText}
                     />
                 </div>
-                <p className="game-title">{gameTitle}</p>
+                <p className="game-title">
+                    {gameTitle}
+                </p>
             </a>
         </div>
     );

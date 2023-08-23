@@ -1,7 +1,23 @@
 .game-list {
+    /**
+  * User input values.
+  */
+    --grid-layout-gap: 10px;
+    --grid-column-count: 4;
+    --grid-item--min-width: 5rem;
+
+    /**
+     * Calculated values.
+     */
+    --gap-count: calc(var(--grid-column-count) - 1);
+    --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+    --grid-item--max-width: calc((100% - var(--total-gap-width)) / var(--grid-column-count));
+
     display: grid;
-    grid-auto-columns: auto;
-    grid-template-columns: repeat(5, minmax(15rem, 1fr));
-    grid-column-gap: 1rem;
-    grid-row-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
+    grid-gap: var(--grid-layout-gap);
+    /*    grid-auto-columns: auto;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-column-gap: 1rem;
+        grid-row-gap: 2rem;*/
 }

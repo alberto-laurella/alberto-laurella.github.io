@@ -67,7 +67,7 @@ const gameData = [
     },
     {
         "appId": 570050,
-        "gameTitle": "Raiden V: Director's Cut | 雷電 V Director's Cut | 雷電V:導演剪輯版",
+        "gameTitle": "Raiden V: Director's Cut",
         "altText": "Raiden V: Director's Cut",
         "storePageUrl": "https://www.humblebundle.com/membership/april-2020/raiden5_directorscut",
         "thumbnail": "873767eec591abea7a91dbcd516e8349a985e42b.avif"
@@ -416,13 +416,6 @@ const gameData = [
         "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/645630/header.jpg"
     },
     {
-        "appId": 873940,
-        "gameTitle": "Crying Suns",
-        "altText": "Crying Suns",
-        "storePageUrl": "https://www.humblebundle.com/membership/november-2020/cryingsuns",
-        "thumbnail": "a9667af773f6be2052c0bbd07730d7642ef8f330.avif"
-    },
-    {
         "appId": 442070,
         "gameTitle": "Drawful 2",
         "altText": "Drawful 2",
@@ -435,20 +428,6 @@ const gameData = [
         "altText": "Fable Anniversary",
         "storePageUrl": "https://store.steampowered.com/app/288470",
         "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/288470/header.jpg"
-    },
-    {
-        "appId": 465200,
-        "gameTitle": "Fury Unleashed",
-        "altText": "Fury Unleashed",
-        "storePageUrl": "https://www.humblebundle.com/membership/may-2021/furyunleashed",
-        "thumbnail": "828c9e375219e6478b307bf8b1a77f8738ada818.avif"
-    },
-    {
-        "appId": 701160,
-        "gameTitle": "Kingdom Two Crowns",
-        "altText": "Kingdom Two Crowns",
-        "storePageUrl": "https://www.humblebundle.com/membership/march-2021/kingdom_twocrowns",
-        "thumbnail": "c1ce8b6928ef2d7ca5c440822ea0a6d0a6ea3761.avif"
     },
     {
         "appId": 875310,
@@ -477,13 +456,6 @@ const gameData = [
         "altText": "Pathway",
         "storePageUrl": "https://store.steampowered.com/app/546430",
         "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/546430/header.jpg"
-    },
-    {
-        "appId": 1016120,
-        "gameTitle": "PGA Tour 2K21",
-        "altText": "PGA Tour 2K21",
-        "storePageUrl": "https://store.steampowered.com/app/1016120",
-        "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/1016120/header.jpg"
     },
     {
         "appId": 572890,
@@ -526,13 +498,6 @@ const gameData = [
         "altText": "Wargroove",
         "storePageUrl": "https://store.steampowered.com/app/607050",
         "thumbnail": "https://cdn.akamai.steamstatic.com/steam/apps/607050/header.jpg"
-    },
-    {
-        "appId": 1026420,
-        "gameTitle": "WARSAW",
-        "altText": "WARSAW",
-        "storePageUrl": "https://www.humblebundle.com/membership/may-2020/warsaw",
-        "thumbnail": "72c6a5acf3af8c97f813ccac84551e0d3b33d0a3.avif"
     },
     {
         "appId": 445980,
