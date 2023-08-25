@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 import './Header.css';
+import SteamApiButton from "./SteamApiButton";
 
 const Header = ({ searchQuery, setSearchQuery }) => {
     return (
@@ -14,6 +15,7 @@ const Header = ({ searchQuery, setSearchQuery }) => {
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
+                <SteamApiButton/>
             </div>
         </header>
     );
