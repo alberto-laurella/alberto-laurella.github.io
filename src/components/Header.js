@@ -1,9 +1,13 @@
-import React from 'react';
 import SearchBar from './SearchBar';
 import './Header.css';
-import SteamApiButton from "./SteamApiButton";
+import SteamApiButton from './SteamApiButton';
+import { debounce } from 'lodash'; // Import debounce from Lodash
 
-const Header = ({ searchQuery, setSearchQuery }) => {
+const Header = ({ setSearchQuery }) => {
+    const debouncedSetSearchQuery = debounce((value) => {
+        setSearchQuery(value);
+    }, 100); // Adjust the debounce delay as needed
+
     return (
         <header className="App-header">
             <div className="header-text-container">
@@ -12,10 +16,9 @@ const Header = ({ searchQuery, setSearchQuery }) => {
             <div className="search-bar-container">
                 <SearchBar
                     className="search-bar"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onChange={(e) => debouncedSetSearchQuery(e.target.value)}
                 />
-                <SteamApiButton/>
+                <SteamApiButton />
             </div>
         </header>
     );
