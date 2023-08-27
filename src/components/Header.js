@@ -1,12 +1,28 @@
+import React, { useState } from 'react';
 import SearchBar from './SearchBar';
 import './Header.css';
 import SteamApiButton from './SteamApiButton';
-import { debounce } from 'lodash'; // Import debounce from Lodash
+import FilterMenuToggle from "./FilterMenuToggle";
+import FilterMenu from './FilterMenu';
+import { debounce } from 'lodash';
 
-const Header = ({ setSearchQuery }) => {
+const Header = ({
+                    setSearchQuery,
+                    onFilterChange,
+                    selectedPriceRange,
+                    selectedMetacriticRange,
+                    selectedGenre,
+                    selectedLanguage,
+                    selectedCategory
+                }) =>
+{
     const debouncedSetSearchQuery = debounce((value) => {
         setSearchQuery(value);
     }, 100); // Adjust the debounce delay as needed
+    const [filterMenuOpen, setFilterMenuOpen] = useState(false);
+    const onFilterToggle = () => {
+        setFilterMenuOpen(!filterMenuOpen);
+    };
 
     return (
         <header className="App-header">
@@ -19,6 +35,17 @@ const Header = ({ setSearchQuery }) => {
                     onChange={(e) => debouncedSetSearchQuery(e.target.value)}
                 />
                 <SteamApiButton />
+                <FilterMenuToggle onToggle={onFilterToggle} />
+                {filterMenuOpen && (
+                    <FilterMenu
+                        onFilterChange={onFilterChange}
+                        selectedPriceRange={selectedPriceRange}
+                        selectedMetacriticRange={selectedMetacriticRange}
+                        selectedGenre={selectedGenre}
+                        selectedCategory={selectedCategory}
+                        selectedLanguage={selectedLanguage}
+                    />
+                )}
             </div>
         </header>
     );

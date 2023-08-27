@@ -1,4 +1,4 @@
-const gameData = [
+export const gameData = [
     {
         "gameTitle": "Multicam Capture",
         "altText": "Multicam Capture",
@@ -2223,4 +2223,2084 @@ const gameData = [
     }
 ];
 
-export default gameData;
+export const steamApiData = {
+    '529660': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Ungherese", "Giapponese", "Coreano", "Polacco"],
+        "metacriticScore": 74,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '631570': {
+        "genres": ["Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Italiano", "Portoghese - Brasile"],
+        "metacriticScore": 77,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '1016920': {
+        "genres": ["Azione", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato", "Coreano", "Portoghese - Brasile", "Russo", "Cinese tradizionale", "Italiano", "Spagnolo - Spagna", "Giapponese", "Polacco", "Turco", "Spagnolo - America Latina", "Ceco"],
+        "metacriticScore": 77,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Classifiche di Steam", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '585420': {
+        "genres": ["Azione", "Avventura", "Indie", "Corse", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Danese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Giapponese", "Coreano"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Classifiche di Steam", "Remote Play sulla TV"]
+    },
+    '310950': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Spagnolo - America Latina"],
+        "metacriticScore": 89,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '535930': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile", "Coreano"],
+        "metacriticScore": 83,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '599140': {
+        "genres": ["Avventura", "Indie", "GDR", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato", "Spagnolo - Spagna", "Portoghese - Brasile", "Coreano", "Giapponese", "Russo", "Italiano", "Polacco"],
+        "metacriticScore": 69,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '356190': {
+        "genres": ["Azione", "Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo", "Arabo", "Coreano", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Acquisti dall'applicazione", "Steam Cloud"]
+    },
+    '680380': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '573320': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '562500': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Russo", "Francese", "Spagnolo - Spagna", "Coreano", "Portoghese - Brasile", "Tedesco", "Giapponese", "Cinese semplificato", "Polacco"],
+        "metacriticScore": 70,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '510420': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Francese", "Spagnolo - Spagna", "Turco", "Italiano", "Tedesco", "Russo", "Polacco", "Portoghese - Brasile", "Olandese", "Giapponese"],
+        "metacriticScore": 81,
+        "price_overview": "8,19€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '893680': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 78,
+        "price_overview": "11,--€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '716500': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Ungherese", "Russo", "Tedesco", "Francese", "Spagnolo - Spagna", "Italiano", "Cinese semplificato", "Giapponese", "Portoghese - Brasile"],
+        "metacriticScore": 84,
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '829590': {
+        "genres": ["Azione", "Avventura", "Indie", "Multigiocatore di massa", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Coreano", "Cinese semplificato", "Cinese tradizionale", "Giapponese", "Polacco", "Turco"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "MMO", "PvP", "PvP online", "PvP in LAN", "Co-op", "Partita cooperativa online", "Co-op LAN", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '449960': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Polacco", "Francese", "Italiano", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Tedesco", "Turco", "Spagnolo - Spagna", "Bulgaro", "Coreano", "Ucraino"],
+        "metacriticScore": 72,
+        "price_overview": "22,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud", "Statistiche", "Classifiche di Steam", "Remote Play sulla TV"]
+    },
+    '638200': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Carte collezionabili di Steam"]
+    },
+    '684580': {
+        "genres": ["Avventura", "Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Giapponese", "Russo", "Cinese semplificato", "Turco"],
+        "price_overview": "4,24€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '1091980': {
+        "genres": ["GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo"],
+        "metacriticScore": 84,
+        "price_overview": "34,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '405830': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Schermo condiviso", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '718650': {
+        "genres": ["Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Polacco", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato"],
+        "metacriticScore": 76,
+        "price_overview": "16,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '1168880': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "9,75€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '558990': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Giapponese", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Coreano", "Turco", "Ucraino", "Portoghese - Portogallo", "Ceco"],
+        "metacriticScore": 90,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Workshop di Steam", "Steam Cloud", "Classifiche di Steam", "Include editor dei livelli"]
+    },
+    '683320': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Russo", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile"],
+        "metacriticScore": 84,
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '629090': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna"],
+        "metacriticScore": 81,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '518060': {
+        "genres": ["Passatempo", "Indie", "Simulazione", "Sport", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Olandese", "Russo", "Portoghese - Brasile"],
+        "price_overview": "12,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Supporto per i controller tracciati", "Compatibile con VR", "Steam Cloud", "Notifiche di Steam dei turni", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '994220': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Coreano", "Giapponese", "Tedesco", "Cinese tradizionale", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Francese", "Italiano", "Spagnolo - Spagna", "Spagnolo - America Latina"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Statistiche", "Classifiche di Steam", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '1104660': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Giapponese", "Cinese tradizionale", "Coreano", "Cinese semplificato"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1026420': {
+        "genres": ["Indie", "GDR", "Free-to-Play"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Polacco", "Russo"],
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '489630': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Francese"],
+        "metacriticScore": 71,
+        "price_overview": "33,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP in LAN", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op LAN", "Co-op locale a schermo condiviso", "Schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '671440': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "28,99€",
+        "categories": ["Giocatore singolo", "Steam Cloud"]
+    },
+    '761030': {
+        "genres": ["Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Norvegese", "Polacco", "Portoghese - Brasile", "Russo", "Giapponese"],
+        "price_overview": "28,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '336940': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Remote Play sulla TV"]
+    },
+    '811870': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Danese", "Finlandese", "Cinese semplificato", "Giapponese", "Coreano", "Olandese", "Norvegese", "Polacco", "Russo", "Svedese", "Tailandese", "Turco"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Classifiche di Steam", "Include editor dei livelli"]
+    },
+    '611760': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Polacco", "Tedesco"],
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1173200': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Coreano", "Giapponese", "Cinese semplificato", "Cinese tradizionale", "Tedesco", "Russo", "Francese", "Spagnolo - Spagna", "Spagnolo - America Latina"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '618740': {
+        "genres": ["Azione", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Portoghese - Portogallo", "Russo", "Cinese semplificato", "Svedese", "Cinese tradizionale", "Giapponese", "Olandese", "Ungherese", "Danese", "Tailandese"],
+        "price_overview": "15,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Compatibile con VR", "Carte collezionabili di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '597760': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Cinese semplificato", "Cinese tradizionale", "Coreano", "Russo", "Francese", "Tedesco", "Giapponese", "Portoghese - Brasile", "Turco", "Ucraino", "Italiano", "Galiziano"],
+        "metacriticScore": 81,
+        "price_overview": "16,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '544610': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo"],
+        "metacriticScore": 77,
+        "price_overview": "36,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '503940': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Russo", "Cinese semplificato", "Italiano", "Spagnolo - Spagna", "Polacco", "Coreano", "Giapponese"],
+        "metacriticScore": 74,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '857980': {
+        "genres": ["Azione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 81,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '898650': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Francese", "Tedesco", "Turco", "Russo", "Ucraino", "Spagnolo - Spagna", "Ungherese", "Portoghese - Brasile", "Giapponese", "Coreano"],
+        "metacriticScore": 66,
+        "price_overview": "4,14€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '765880': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Coreano", "Polacco", "Russo"],
+        "metacriticScore": 68,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '893180': {
+        "genres": ["Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna"],
+        "metacriticScore": 80,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play Together"]
+    },
+    '846870': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Cinese semplificato", "Polacco"],
+        "metacriticScore": 81,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '1020470': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '312670': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 68,
+        "price_overview": "49,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '553310': {
+        "genres": ["Azione", "Indie", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '1142500': {
+        "genres": ["Azione", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Include editor dei livelli"]
+    },
+    '1096410': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Francese", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Italiano", "Spagnolo - Spagna", "Tedesco"],
+        "metacriticScore": 70,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '751780': {
+        "genres": ["Azione", "Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Portoghese - Brasile", "Giapponese", "Coreano", "Russo", "Tailandese", "Turco", "Francese"],
+        "metacriticScore": 78,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Classifiche di Steam", "Commento disponibile", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '938380': {
+        "genres": ["Passatempo", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Italiano", "Arabo", "Spagnolo - America Latina", "Svedese", "Tailandese", "Cinese tradizionale", "Turco", "Polacco"],
+        "metacriticScore": 60,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '640120': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Danese", "Francese", "Tedesco", "Italiano", "Spagnolo - Spagna", "Ceco", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Svedese", "Norvegese", "Cinese tradizionale"],
+        "metacriticScore": 80,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Workshop di Steam", "Steam Cloud", "Statistiche", "Include editor dei livelli"]
+    },
+    '864680': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato", "Polacco", "Russo", "Italiano", "Ucraino", "Ungherese", "Spagnolo - Spagna", "Turco"],
+        "price_overview": "2,94€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '393190': {
+        "genres": ["Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Polacco", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Russo", "Francese", "Italiano", "Giapponese", "Portoghese - Brasile"],
+        "price_overview": "11,59€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '274520': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Polacco", "Russo", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Italiano", "Cinese semplificato", "Turco", "Ungherese"],
+        "metacriticScore": 80,
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sulla TV"]
+    },
+    '1018850': {
+        "genres": ["Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile"],
+        "price_overview": "12,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '939100': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato"],
+        "metacriticScore": 61,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Steam Cloud"]
+    },
+    '873940': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato", "Russo", "Spagnolo - Spagna", "Giapponese"],
+        "metacriticScore": 75,
+        "price_overview": "20,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1181400': {
+        "genres": ["Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Spagnolo - America Latina", "Turco"],
+        "price_overview": "7,39€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '427700': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Giapponese"],
+        "metacriticScore": 79,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '427680': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Giapponese"],
+        "metacriticScore": 68,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '809890': {
+        "genres": ["Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Giapponese", "Coreano", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 68,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sulla TV"]
+    },
+    '792300': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Portoghese - Brasile", "Cinese semplificato", "Turco", "Francese"],
+        "metacriticScore": 74,
+        "price_overview": "24,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1171660': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Olandese", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1045580': {
+        "genres": ["Azione", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ceco", "Danese", "Olandese", "Finlandese", "Ungherese", "Giapponese", "Coreano", "Norvegese", "Polacco", "Portoghese - Portogallo", "Russo", "Cinese semplificato", "Svedese", "Tailandese", "Cinese tradizionale", "Turco"],
+        "price_overview": "8,19€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche"]
+    },
+    '828740': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ucraino", "Russo", "Ungherese", "Giapponese", "Cinese tradizionale", "Portoghese - Portogallo"],
+        "price_overview": "16,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '1279630': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Francese", "Portoghese - Brasile", "Russo"],
+        "price_overview": "10,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '733790': {
+        "genres": ["Avventura", "GDR", "Simulazione"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Spagnolo - Spagna", "Francese", "Giapponese", "Tedesco"],
+        "metacriticScore": 71,
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '674500': {
+        "genres": ["Azione", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Polacco", "Russo", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Cinese semplificato", "Cinese tradizionale", "Coreano"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '774241': {
+        "genres": ["Azione", "Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Cinese tradizionale", "Coreano", "Spagnolo - America Latina", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo"],
+        "metacriticScore": 69,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '505230': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Russo"],
+        "price_overview": "33,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sulla TV"]
+    },
+    '965680': {
+        "genres": ["Azione", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Coreano", "Spagnolo - America Latina", "Giapponese", "Cinese semplificato", "Polacco", "Portoghese - Brasile", "Turco", "Olandese", "Spagnolo - Spagna", "Cinese tradizionale", "Portoghese - Portogallo", "Russo", "Greco", "Ucraino", "Catalano"],
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '1127610': {
+        "genres": ["Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato", "Russo", "Giapponese", "Portoghese - Brasile", "Spagnolo - Spagna"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche"]
+    },
+    '871420': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Russo", "Tedesco", "Italiano"],
+        "metacriticScore": 77,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '600130': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Portogallo", "Russo", "Giapponese", "Polacco", "Portoghese - Brasile", "Cinese tradizionale", "Turco", "Finlandese", "Coreano", "Cinese semplificato"],
+        "metacriticScore": 86,
+        "price_overview": "20,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '914010': {
+        "genres": ["Passatempo", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Italiano", "Spagnolo - Spagna", "Arabo"],
+        "metacriticScore": 68,
+        "price_overview": "6,47€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '526160': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Portoghese - Brasile", "Cinese semplificato", "Coreano", "Russo", "Giapponese", "Spagnolo - Spagna", "Polacco", "Turco"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Remote Play sulla TV"]
+    },
+    '690640': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese tradizionale", "Ceco", "Coreano", "Turco"],
+        "metacriticScore": 81,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '996770': {
+        "genres": ["Azione", "Passatempo", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Giapponese", "Coreano", "Portoghese - Brasile", "Cinese semplificato", "Cinese tradizionale", "Svedese", "Polacco", "Russo", "Italiano", "Spagnolo - Spagna"],
+        "metacriticScore": 79,
+        "price_overview": "22,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '1210150': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna"],
+        "metacriticScore": 72,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '598780': {
+        "genres": ["Azione", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "3,99€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "Supporto completo per i controller"]
+    },
+    '431940': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Giapponese", "Coreano", "Russo", "Cinese semplificato", "Spagnolo - America Latina"],
+        "metacriticScore": 79,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Sottotitoli disponibili", "Steam Cloud", "Remote Play Together"]
+    },
+    '1144030': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "11,79€",
+        "categories": ["Giocatore singolo"]
+    },
+    '1130410': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Workshop di Steam", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '609920': {
+        "genres": ["Azione", "Indie", "Corse"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "1,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Remote Play Together"]
+    },
+    '1142100': {
+        "genres": ["Azione", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Giapponese", "Cinese semplificato", "Cinese tradizionale", "Coreano"],
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Acquisti dall'applicazione", "Remote Play Together"]
+    },
+    '701160': {
+        "genres": ["Avventura", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Russo", "Francese", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '411300': {
+        "genres": ["Azione", "Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Ceco", "Cinese semplificato"],
+        "metacriticScore": 67,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '882100': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "2,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Workshop di Steam", "Remote Play sul tablet"]
+    },
+    '349730': {
+        "genres": ["Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 73,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Include editor dei livelli", "Remote Play Together"]
+    },
+    '940710': {
+        "genres": ["Azione", "Passatempo", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Russo", "Cinese semplificato", "Italiano", "Cinese tradizionale", "Polacco"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Classifiche di Steam", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '484900': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Italiano"],
+        "metacriticScore": 65,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '890720': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Giapponese", "Cinese semplificato"],
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Supporto parziale per i controller"]
+    },
+    '1078920': {
+        "genres": ["Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile", "Giapponese"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '878670': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 69,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller"]
+    },
+    '973580': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese tradizionale", "Cinese semplificato", "Polacco", "Portoghese - Brasile", "Russo", "Ceco", "Coreano", "Giapponese"],
+        "metacriticScore": 71,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '1063310': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Italiano", "Spagnolo - Spagna", "Francese", "Tedesco", "Giapponese", "Cinese semplificato"],
+        "metacriticScore": 63,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Remote Play sulla TV"]
+    },
+    '904360': {
+        "genres": ["Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Cinese semplificato", "Tedesco", "Spagnolo - Spagna"],
+        "price_overview": "15,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller"]
+    },
+    '760810': {
+        "genres": ["Azione", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Giapponese", "Coreano", "Polacco", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Tailandese", "Cinese tradizionale", "Turco"],
+        "price_overview": "13,80€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Remote Play Together"]
+    },
+    '941570': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Francese", "Italiano", "Tedesco", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 74,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1331910': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Danese", "Finlandese", "Giapponese", "Norvegese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Svedese"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '976700': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie", "Corse", "Simulazione"],
+        "supported_languages": ["Inglese", "Tedesco", "Spagnolo - Spagna", "Ceco", "Polacco", "Portoghese - Portogallo", "Russo", "Cinese semplificato", "Italiano", "Portoghese - Brasile", "Spagnolo - America Latina", "Turco", "Greco", "Giapponese", "Coreano", "Francese"],
+        "price_overview": "9,75€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '465200': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Polacco", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Giapponese", "Coreano", "Portoghese - Brasile"],
+        "metacriticScore": 79,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '792710': {
+        "genres": ["Azione", "Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Giapponese", "Coreano", "Cinese tradizionale"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Include editor dei livelli", "Remote Play Together"]
+    },
+    '628670': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Russo", "Cinese semplificato", "Italiano", "Portoghese - Brasile"],
+        "metacriticScore": 64,
+        "price_overview": "33,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '710920': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Hindi", "Persiano"],
+        "metacriticScore": 77,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '412020': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ceco", "Polacco", "Portoghese - Brasile", "Russo", "Coreano", "Cinese semplificato", "Cinese tradizionale", "Ucraino", "Giapponese"],
+        "metacriticScore": 85,
+        "price_overview": "5,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '979310': {
+        "genres": ["Azione", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Giapponese"],
+        "metacriticScore": 67,
+        "price_overview": "15,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller"]
+    },
+    '975950': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Francese", "Tedesco"],
+        "metacriticScore": 70,
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '1037910': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Portogallo", "Cinese semplificato", "Turco", "Russo", "Portoghese - Brasile", "Spagnolo - America Latina", "Ceco", "Italiano", "Polacco"],
+        "price_overview": "3,59€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '854940': {
+        "genres": ["Indie", "GDR"],
+        "supported_languages": ["Inglese", "Giapponese"],
+        "metacriticScore": 69,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller"]
+    },
+    '671510': {
+        "genres": ["Azione", "Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Russo", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Portoghese - Brasile"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '975510': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Giapponese", "Cinese semplificato", "Spagnolo - America Latina"],
+        "metacriticScore": 76,
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play sulla TV"]
+    },
+    '1154810': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Russo", "Cinese semplificato"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '7800': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato"],
+        "metacriticScore": 72,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '859570': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Tailandese", "Italiano", "Turco", "Vietnamita", "Polacco", "Portoghese - Portogallo", "Ucraino"],
+        "price_overview": "19,50€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Acquisti dall'applicazione", "Remote Play sul telefono", "Remote Play sul tablet"]
+    },
+    '740080': {
+        "genres": ["Azione", "Passatempo", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Giapponese", "Russo", "Cinese semplificato", "Portoghese - Brasile", "Francese", "Italiano", "Spagnolo - Spagna", "Coreano", "Polacco", "Cinese tradizionale"],
+        "price_overview": "11,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '727850': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Polacco", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ungherese", "Russo", "Spagnolo - America Latina", "Cinese semplificato"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '914750': {
+        "genres": ["Avventura", "Passatempo", "Simulazione"],
+        "supported_languages": ["Inglese", "Tedesco", "Polacco", "Francese", "Italiano", "Spagnolo - Spagna", "Cinese semplificato", "Cinese tradizionale", "Coreano", "Giapponese", "Olandese", "Portoghese - Brasile", "Russo"],
+        "metacriticScore": 58,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso"]
+    },
+    '1179210': {
+        "genres": ["Azione", "Passatempo", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Olandese", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 68,
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1160220': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Giapponese", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 81,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '383840': {
+        "genres": ["Azione", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Turco"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Statistiche", "Classifiche di Steam", "Remote Play Together"]
+    },
+    '760650': {
+        "genres": ["Avventura", "Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Giapponese", "Polacco", "Portoghese - Brasile"],
+        "metacriticScore": 64,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Carte collezionabili di Steam"]
+    },
+    '1038250': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Corse", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Coreano", "Cinese semplificato", "Giapponese"],
+        "metacriticScore": 72,
+        "price_overview": "54,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Acquisti dall'applicazione", "Steam Cloud", "Remote Play Together"]
+    },
+    '644830': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Coreano", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese tradizionale", "Ceco"],
+        "metacriticScore": 76,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '1137450': {
+        "genres": ["Avventura"],
+        "supported_languages": ["Inglese", "Tedesco", "Italiano", "Spagnolo - Spagna", "Russo", "Giapponese", "Coreano", "Cinese semplificato"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam"]
+    },
+    '1220150': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Portoghese - Brasile", "Russo", "Spagnolo - America Latina", "Spagnolo - Spagna", "Cinese semplificato", "Coreano", "Cinese tradizionale"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '681730': {
+        "genres": ["Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Cinese semplificato", "Francese", "Spagnolo - Spagna"],
+        "metacriticScore": 73,
+        "price_overview": "20,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '739650': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '979640': {
+        "genres": ["Azione", "Avventura", "Indie", "Simulazione", "Strategia", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Coreano", "Tedesco", "Giapponese", "Russo", "Spagnolo - Spagna", "Portoghese - Portogallo", "Francese"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '1119700': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Cinese tradizionale", "Giapponese"],
+        "metacriticScore": 70,
+        "price_overview": "20,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '1172450': {
+        "genres": ["Avventura", "Passatempo", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Giapponese", "Coreano", "Russo", "Cinese semplificato", "Cinese tradizionale", "Spagnolo - America Latina", "Francese", "Tedesco"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '307110': {
+        "genres": ["Azione", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "13,29€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '400080': {
+        "genres": ["Passatempo", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato", "Portoghese - Brasile", "Italiano", "Spagnolo - Spagna", "Olandese", "Giapponese", "Polacco", "Russo", "Spagnolo - America Latina", "Turco"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '903950': {
+        "genres": ["Azione", "Avventura", "Indie", "Multigiocatore di massa", "GDR", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "24,99€",
+        "categories": ["Multigiocatore", "MMO", "PvP", "PvP online", "Achievement di Steam", "Supporto parziale per i controller"]
+    },
+    '692850': {
+        "genres": ["Azione", "Avventura", "GDR"],
+        "supported_languages": ["Giapponese", "Inglese", "Francese", "Italiano", "Tedesco", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Spagnolo - America Latina"],
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Sottotitoli disponibili", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '322450': {
+        "genres": ["Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Danese", "Olandese", "Finlandese", "Greco", "Norvegese", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Svedese", "Tailandese", "Cinese tradizionale", "Turco"],
+        "price_overview": "9,75€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '633060': {
+        "genres": ["Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 74,
+        "price_overview": "9,75€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '612570': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Polacco", "Russo", "Francese", "Italiano", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Cinese semplificato"],
+        "metacriticScore": 74,
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play Together"]
+    },
+    '929010': {
+        "genres": ["Avventura", "Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Portoghese - Brasile", "Russo", "Spagnolo - America Latina", "Cinese semplificato", "Giapponese", "Coreano"],
+        "metacriticScore": 51,
+        "price_overview": "12,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '774201': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 76,
+        "price_overview": "21,99€",
+        "categories": ["Giocatore singolo", "Supporto completo per i controller", "Remote Play sulla TV"]
+    },
+    '757320': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Ceco", "Coreano", "Polacco", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Cinese tradizionale", "Turco", "Ucraino"],
+        "metacriticScore": 78,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1016790': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Cinese tradizionale"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '1147550': {
+        "genres": ["Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 82,
+        "price_overview": "24,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '1016120': {
+        "genres": ["Simulazione", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 74,
+        "price_overview": "59,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Acquisti dall'applicazione", "Notifiche di Steam dei turni", "Include editor dei livelli", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '464340': {
+        "genres": ["Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Cinese tradizionale", "Coreano", "Olandese", "Polacco", "Russo"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller"]
+    },
+    '833040': {
+        "genres": ["Avventura", "Passatempo", "Indie", "GDR", "Simulazione"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "12,79€",
+        "categories": ["Giocatore singolo"]
+    },
+    '940680': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 78,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '878580': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '998740': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Francese", "Tedesco", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '537340': {
+        "genres": ["Azione", "Passatempo", "Indie", "Corse"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Cinese tradizionale", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo"],
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Statistiche", "Classifiche di Steam", "Include editor dei livelli"]
+    },
+    '1405790': {
+        "genres": ["Azione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Coreano", "Portoghese - Brasile", "Russo"],
+        "metacriticScore": 74,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '999220': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 80,
+        "price_overview": "28,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Workshop di Steam", "Include editor dei livelli", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '1000410': {
+        "genres": ["Azione", "Accesso anticipato"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo"]
+    },
+    '1150950': {
+        "genres": ["Avventura", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Tailandese", "Cinese semplificato", "Giapponese", "Cinese tradizionale", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Coreano", "Portoghese - Brasile", "Russo", "Turco"],
+        "metacriticScore": 77,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '870200': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '1205450': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Giapponese"],
+        "metacriticScore": 72,
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '1286350': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Portogallo", "Russo", "Cinese semplificato"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1054490': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese tradizionale", "Ucraino"],
+        "metacriticScore": 84,
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Classifiche di Steam", "Notifiche di Steam dei turni", "Remote Play Together"]
+    },
+    '895870': {
+        "genres": ["Azione", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Giapponese", "Cinese semplificato", "Spagnolo - America Latina", "Coreano", "Russo"],
+        "metacriticScore": 75,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Compatibile con VR"]
+    },
+    '613100': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Ceco", "Giapponese", "Coreano", "Rumeno", "Turco", "Ungherese", "Portoghese - Brasile", "Cinese tradizionale", "Ucraino", "Greco", "Olandese", "Norvegese", "Portoghese - Portogallo", "Spagnolo - America Latina"],
+        "metacriticScore": 67,
+        "price_overview": "7,35€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '753650': {
+        "genres": ["Azione", "Indie", "Simulazione", "Accesso anticipato"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "8,57€",
+        "categories": ["Multigiocatore", "PvP", "PvP online"]
+    },
+    '1304680': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Svedese"],
+        "price_overview": "18,49€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '1075200': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Polacco", "Russo", "Giapponese", "Portoghese - Brasile", "Coreano", "Turco"],
+        "metacriticScore": 72,
+        "price_overview": "12,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1054430': {
+        "genres": ["Azione", "Passatempo", "Indie", "Corse", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Italiano", "Ceco", "Greco", "Ungherese", "Coreano", "Spagnolo - America Latina", "Cinese tradizionale", "Turco", "Polacco", "Svedese", "Giapponese", "Cinese semplificato"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '1311070': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Giapponese", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Portoghese - Brasile", "Spagnolo - Spagna"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '897450': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Arabo", "Olandese"],
+        "metacriticScore": 69,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1227530': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Russo", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Cinese semplificato", "Spagnolo - America Latina", "Cinese tradizionale", "Turco", "Ungherese", "Ceco"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1058650': {
+        "genres": ["Azione", "Indie", "Multigiocatore di massa", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Cinese semplificato"],
+        "price_overview": "9,75€",
+        "categories": ["Multigiocatore", "PvP", "PvP online"]
+    },
+    '933820': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Cinese semplificato", "Giapponese", "Russo", "Coreano", "Francese", "Spagnolo - Spagna", "Portoghese - Brasile"],
+        "price_overview": "5,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '629760': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Francese", "Italiano", "Portoghese - Portogallo", "Russo", "Coreano", "Cinese tradizionale"],
+        "metacriticScore": 81,
+        "price_overview": "28,99€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Valve Anti-Cheat attivato", "Statistiche", "Remote Play sul telefono", "Remote Play sul tablet"]
+    },
+    '1162700': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Russo", "Cinese semplificato", "Giapponese"],
+        "metacriticScore": 79,
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '1239690': {
+        "genres": ["Azione", "Passatempo", "Indie", "Corse", "Simulazione"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Russo", "Francese", "Cinese tradizionale", "Polacco", "Rumeno", "Turco", "Ungherese", "Portoghese - Brasile", "Ceco", "Spagnolo - Spagna", "Spagnolo - America Latina"],
+        "price_overview": "2,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '727130': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR", "Simulazione", "Strategia", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Cinese semplificato"],
+        "price_overview": "27,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '678900': {
+        "genres": ["Passatempo", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Giapponese", "Coreano", "Polacco", "Russo", "Cinese tradizionale", "Cinese semplificato", "Turco", "Olandese", "Ungherese"],
+        "price_overview": "7,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '844260': {
+        "genres": ["Azione", "Avventura", "Indie", "Corse", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Polacco", "Russo", "Portoghese - Brasile", "Coreano", "Cinese semplificato", "Cinese tradizionale", "Turco"],
+        "metacriticScore": 65,
+        "price_overview": "20,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '970960': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Giapponese", "Coreano", "Polacco", "Russo", "Cinese semplificato"],
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '774861': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Spagnolo - America Latina", "Francese", "Italiano", "Tedesco", "Giapponese", "Coreano", "Russo", "Portoghese - Brasile", "Greco", "Svedese", "Turco", "Ucraino"],
+        "price_overview": "8,19€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Acquisti dall'applicazione", "Steam Cloud"]
+    },
+    '826630': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Ceco", "Coreano", "Portoghese - Brasile", "Cinese semplificato", "Cinese tradizionale", "Turco"],
+        "metacriticScore": 75,
+        "price_overview": "5,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Remote Play sulla TV"]
+    },
+    '1030840': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ceco", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Cinese tradizionale"],
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '1112890': {
+        "genres": ["Passatempo", "Indie", "GDR", "Simulazione"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Giapponese", "Francese", "Italiano", "Tedesco", "Coreano", "Portoghese - Brasile", "Spagnolo - America Latina"],
+        "metacriticScore": 57,
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1229380': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Giapponese", "Francese", "Cinese tradizionale", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Coreano", "Portoghese - Brasile"],
+        "metacriticScore": 83,
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '752030': {
+        "genres": ["Violenti", "Sanguinolenti", "Indie", "Accesso anticipato"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 58,
+        "price_overview": "2,39€",
+        "categories": ["Giocatore singolo"]
+    },
+    '1073910': {
+        "genres": ["Passatempo", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Turco", "Giapponese"],
+        "metacriticScore": 72,
+        "price_overview": "17,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam"]
+    },
+    '979070': {
+        "genres": ["Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "4,19€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '803050': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 78,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '1138660': {
+        "genres": ["Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Russo", "Cinese semplificato", "Giapponese", "Coreano"],
+        "metacriticScore": 75,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1361831': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op LAN", "Multigiocatore multipiattaforma", "Contenuti scaricabili", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '397540': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 81,
+        "price_overview": "59,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op LAN", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '633230': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Coreano", "Polacco", "Russo", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile", "Spagnolo - America Latina"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto parziale per i controller"]
+    },
+    '1207650': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 81,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '910490': {
+        "genres": ["Azione", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Portoghese - Brasile", "Coreano", "Giapponese"],
+        "metacriticScore": 73,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '803330': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Persiano"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '684450': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '1149620': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Turco", "Ceco", "Portoghese - Brasile", "Ucraino", "Finlandese", "Italiano", "Tailandese", "Ungherese", "Portoghese - Portogallo", "Vietnamita", "Coreano"],
+        "metacriticScore": 72,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '681280': {
+        "genres": ["Azione", "Corse", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Olandese", "Cinese semplificato", "Cinese tradizionale", "Russo", "Giapponese", "Coreano", "Portoghese - Brasile", "Portoghese - Portogallo", "Turco", "Greco", "Polacco", "Estone"],
+        "metacriticScore": 78,
+        "price_overview": "22,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Classifiche di Steam", "Remote Play sulla TV"]
+    },
+    '797400': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Russo", "Francese", "Italiano", "Spagnolo - Spagna", "Cinese semplificato", "Ucraino"],
+        "metacriticScore": 55,
+        "price_overview": "33,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '1312960': {
+        "genres": ["Avventura", "Indie", "GDR", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Cinese semplificato", "Italiano", "Russo"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1203710': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Italiano", "Russo", "Francese", "Tedesco", "Portoghese - Brasile", "Giapponese", "Coreano", "Cinese semplificato"],
+        "metacriticScore": 82,
+        "price_overview": "16,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '686810': {
+        "genres": ["Azione", "Indie", "Multigiocatore di massa", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Polacco", "Portoghese - Brasile", "Cinese tradizionale", "Coreano", "Giapponese"],
+        "metacriticScore": 79,
+        "price_overview": "44,99€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Supporto parziale per i controller"]
+    },
+    '1069690': {
+        "genres": ["GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Giapponese", "Polacco", "Russo", "Portoghese - Brasile"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1104330': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Portogallo", "Turco", "Russo", "Ucraino", "Olandese", "Coreano", "Cinese semplificato", "Italiano", "Ceco", "Giapponese"],
+        "price_overview": "18,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '1272160': {
+        "genres": ["Avventura", "Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Russo", "Coreano"],
+        "metacriticScore": 82,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '1549970': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Portoghese - Brasile", "Russo", "Ceco", "Polacco", "Cinese semplificato", "Cinese tradizionale", "Spagnolo - America Latina", "Coreano"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '628200': {
+        "genres": ["Avventura", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Cinese semplificato"],
+        "metacriticScore": 69,
+        "price_overview": "12,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '1120320': {
+        "genres": ["Avventura", "Passatempo", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Polacco", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Giapponese", "Portoghese - Portogallo", "Russo", "Turco"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller"]
+    },
+    '1063660': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese"],
+        "metacriticScore": 72,
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller"]
+    },
+    '900010': {
+        "genres": ["Passatempo", "Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Cinese semplificato"],
+        "price_overview": "16,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Include editor dei livelli"]
+    },
+    '1324350': {
+        "genres": ["Azione", "Corse", "Sport", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "price_overview": "4,49€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Supporto completo per i controller"]
+    },
+    '1040070': {
+        "genres": ["Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Russo", "Spagnolo - Spagna", "Cinese semplificato", "Tailandese", "Portoghese - Brasile"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '745920': {
+        "genres": ["Avventura", "Indie", "Multigiocatore di massa", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Portoghese - Brasile", "Cinese tradizionale"],
+        "metacriticScore": 79,
+        "price_overview": "44,99€",
+        "categories": ["Multigiocatore", "MMO", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Multigiocatore multipiattaforma", "Supporto completo per i controller", "Acquisti dall'applicazione", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet"]
+    },
+    '892860': {
+        "genres": ["Azione", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Russo", "Cinese semplificato"],
+        "price_overview": "14,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play Together"]
+    },
+    '1388870': {
+        "genres": ["Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Classifiche di Steam", "Remote Play Together"]
+    },
+    '3830': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco"],
+        "metacriticScore": 87,
+        "price_overview": "3,19€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet"]
+    },
+    '405640': {
+        "genres": ["Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Danese", "Turco", "Portoghese - Portogallo", "Polacco", "Olandese", "Russo"],
+        "metacriticScore": 86,
+        "price_overview": "3,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Statistiche"]
+    },
+    '365160': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato"],
+        "metacriticScore": 73,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Compatibile con VR", "Remote Play sulla TV"]
+    },
+    '686260': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Coreano", "Russo", "Cinese semplificato"],
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Workshop di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '493540': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Danese", "Giapponese", "Coreano", "Polacco", "Portoghese - Portogallo", "Russo", "Cinese semplificato", "Cinese tradizionale", "Turco", "Ucraino", "Portoghese - Brasile"],
+        "metacriticScore": 77,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '452570': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Russo", "Cinese semplificato"],
+        "metacriticScore": 80,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud", "Classifiche di Steam", "Remote Play Together"]
+    },
+    '673880': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Giapponese", "Coreano"],
+        "metacriticScore": 78,
+        "price_overview": "28,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '300380': {
+        "genres": ["Azione", "Avventura", "Indie", "Corse", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Giapponese"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud", "Statistiche", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '802450': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Giapponese", "Cinese semplificato", "Cinese tradizionale", "Francese", "Italiano", "Tedesco", "Spagnolo - America Latina", "Portoghese - Brasile"],
+        "price_overview": "3,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam"]
+    },
+    '453910': {
+        "genres": ["Passatempo", "Indie"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "11,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Remote Play Together"]
+    },
+    '646270': {
+        "genres": ["Avventura", "Passatempo", "Indie", "GDR", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Russo", "Cinese semplificato", "Polacco", "Coreano", "Giapponese", "Italiano", "Spagnolo - Spagna", "Portoghese - Brasile", "Turco"],
+        "metacriticScore": 68,
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '631980': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 65,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Supporto completo per i controller"]
+    },
+    '623940': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "6,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '698640': {
+        "genres": ["Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Russo", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Cinese semplificato"],
+        "metacriticScore": 70,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '437920': {
+        "genres": ["Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Russo", "Portoghese - Portogallo", "Olandese", "Cinese semplificato", "Arabo", "Finlandese", "Coreano", "Norvegese", "Polacco", "Portoghese - Brasile", "Svedese", "Turco", "Rumeno", "Cinese tradizionale"],
+        "metacriticScore": 80,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Classifiche di Steam", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '400160': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Spagnolo - Spagna", "Tedesco", "Russo"],
+        "metacriticScore": 76,
+        "price_overview": "5,69€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Classifiche di Steam", "Remote Play Together"]
+    },
+    '576500': {
+        "genres": ["Avventura", "Passatempo", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "9,75€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Classifiche di Steam"]
+    },
+    '735580': {
+        "genres": ["Avventura", "Passatempo"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Spagnolo - America Latina", "Giapponese"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '690140': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Portoghese - Brasile", "Russo"],
+        "price_overview": "17,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '661940': {
+        "genres": ["Indie", "Sport"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "3,99€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Statistiche", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '312200': {
+        "genres": ["Azione", "Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Portoghese - Brasile", "Spagnolo - America Latina", "Ungherese"],
+        "metacriticScore": 72,
+        "price_overview": "5,87€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play sulla TV"]
+    },
+    '602320': {
+        "genres": ["Avventura", "Passatempo", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Coreano", "Turco", "Ceco", "Svedese"],
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '299950': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Portoghese - Brasile", "Russo", "Giapponese"],
+        "metacriticScore": 75,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '245280': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna"],
+        "metacriticScore": 70,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '297110': {
+        "genres": ["Passatempo", "Indie"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "2,99€",
+        "categories": ["Giocatore singolo"]
+    },
+    '229520': {
+        "genres": ["Passatempo", "Indie", "Strategia"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 73,
+        "price_overview": "2,99€",
+        "categories": ["Giocatore singolo", "Carte collezionabili di Steam", "Classifiche di Steam"]
+    },
+    '201480': {
+        "genres": ["Azione", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 64,
+        "price_overview": "4,99€",
+        "categories": ["Giocatore singolo"]
+    },
+    '404590': {
+        "genres": ["Azione", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Polacco", "Cinese semplificato"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play Together"]
+    },
+    '70660': {
+        "genres": ["Passatempo"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "7,99€",
+        "categories": ["Giocatore singolo"]
+    },
+    '70620': {
+        "genres": ["Sport", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Francese", "Italiano", "Spagnolo - Spagna"],
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller"]
+    },
+    '334940': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Giapponese", "Coreano"],
+        "metacriticScore": 84,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '445980': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Francese", "Tedesco", "Russo"],
+        "metacriticScore": 79,
+        "price_overview": "15,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '607050': {
+        "genres": ["Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Coreano"],
+        "metacriticScore": 82,
+        "price_overview": "16,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Notifiche di Steam dei turni", "Include editor dei livelli", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '530320': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 82,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sulla TV"]
+    },
+    '282070': {
+        "genres": ["Avventura", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Polacco", "Russo", "Italiano", "Portoghese - Brasile", "Spagnolo - Spagna", "Giapponese", "Coreano", "Turco", "Cinese semplificato"],
+        "metacriticScore": 83,
+        "price_overview": "18,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '521880': {
+        "genres": ["Design e illustrazione", "Educativi", "Pubblicazione su web", "Sviluppo di videogiochi"],
+        "supported_languages": ["Inglese", "Giapponese"],
+        "price_overview": "3,89€"
+    },
+    '871530': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Spagnolo - Spagna", "Polacco", "Russo", "Spagnolo - America Latina", "Cinese semplificato", "Tedesco", "Turco"],
+        "metacriticScore": 65,
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '572890': {
+        "genres": ["Azione", "Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Cinese semplificato", "Cinese tradizionale", "Coreano", "Giapponese", "Portoghese - Brasile", "Russo"],
+        "metacriticScore": 74,
+        "price_overview": "12,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud", "Statistiche", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play Together"]
+    },
+    '546430': {
+        "genres": ["Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Tedesco", "Francese", "Giapponese", "Cinese semplificato"],
+        "metacriticScore": 68,
+        "price_overview": "13,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1078760': {
+        "genres": ["Passatempo", "Indie", "Corse", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Cinese tradizionale", "Cinese semplificato", "Giapponese", "Polacco", "Russo", "Turco", "Portoghese - Brasile", "Vietnamita", "Olandese", "Portoghese - Portogallo"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Steam Cloud"]
+    },
+    '320040': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Italiano", "Giapponese", "Cinese semplificato"],
+        "metacriticScore": 62,
+        "price_overview": "1,24€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '875310': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Portoghese - Brasile", "Giapponese"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '288470': {
+        "genres": ["GDR"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Portoghese - Brasile", "Russo", "Cinese tradizionale"],
+        "price_overview": "31,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '442070': {
+        "genres": ["Passatempo", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna"],
+        "price_overview": "9,99€",
+        "categories": ["Multigiocatore", "PvP", "PvP locale a schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '645630': {
+        "genres": ["Corse", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ceco", "Ungherese", "Giapponese", "Polacco", "Russo", "Cinese semplificato", "Turco", "Portoghese - Portogallo", "Greco", "Portoghese - Brasile", "Finlandese", "Coreano"],
+        "price_overview": "2,92€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Statistiche", "Include editor dei livelli"]
+    },
+    '232790': {
+        "genres": ["Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo"],
+        "metacriticScore": 73,
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '793460': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Coreano", "Giapponese", "Portoghese - Brasile"],
+        "metacriticScore": 73,
+        "price_overview": "20,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '692890': {
+        "genres": ["Azione", "Indie", "Accesso anticipato"],
+        "supported_languages": ["Inglese", "Francese", "Cinese semplificato", "Coreano", "Spagnolo - Spagna", "Ungherese", "Giapponese"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '362960': {
+        "genres": ["Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo"],
+        "metacriticScore": 80,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '525480': {
+        "genres": ["GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Giapponese", "Cinese tradizionale"],
+        "metacriticScore": 69,
+        "price_overview": "49,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Remote Play sulla TV"]
+    },
+    '960420': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Ceco", "Danese", "Olandese", "Finlandese", "Greco", "Ungherese", "Giapponese", "Coreano", "Norvegese", "Polacco", "Portoghese - Portogallo", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Svedese", "Cinese tradizionale", "Turco"],
+        "price_overview": "28,99€",
+        "categories": ["Giocatore singolo", "Supporto completo per i controller", "Remote Play sulla TV"]
+    },
+    '996580': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Arabo", "Danese", "Olandese", "Finlandese", "Norvegese", "Polacco", "Portoghese - Brasile", "Spagnolo - America Latina", "Svedese"],
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV"]
+    },
+    '392110': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '846030': {
+        "genres": ["Azione", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Polacco", "Cinese semplificato", "Tedesco", "Cinese tradizionale", "Spagnolo - Spagna", "Russo", "Ucraino", "Ungherese"],
+        "price_overview": "8,19€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '225080': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 90,
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Supporto completo per i controller"]
+    },
+    '239200': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ceco", "Ungherese", "Polacco", "Portoghese - Brasile", "Russo"],
+        "metacriticScore": 72,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Supporto completo per i controller", "Sottotitoli disponibili", "Steam Cloud", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '57300': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Italiano", "Spagnolo - Spagna", "Russo", "Cinese semplificato"],
+        "metacriticScore": 85,
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Sottotitoli disponibili", "Include editor dei livelli", "Commento disponibile", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '1625400': {
+        "genres": ["Passatempo", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Ceco", "Tedesco", "Coreano", "Spagnolo - Spagna", "Olandese", "Polacco", "Portoghese - Portogallo", "Russo", "Norvegese", "Giapponese", "Portoghese - Brasile", "Spagnolo - America Latina", "Cinese semplificato", "Cinese tradizionale", "Danese", "Italiano", "Finlandese", "Ungherese", "Rumeno", "Svedese", "Turco", "Ucraino"],
+        "price_overview": "4,99€",
+        "categories": ["Giocatore singolo", "Contenuti scaricabili", "Steam Cloud"]
+    },
+    '1670460': {
+        "genres": ["Animazione e modellistica", "Design e illustrazione", "Educativi", "Software di formazione", "Accessori", "Pubblicazione su web", "Sviluppo di videogiochi"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "categories": ["Acquisti dall'applicazione"]
+    },
+    '516110': {
+        "genres": ["Avventura", "Passatempo", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Portoghese - Brasile", "Spagnolo - America Latina", "Giapponese", "Spagnolo - Spagna"],
+        "metacriticScore": 76,
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '528230': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Tedesco", "Russo", "Francese", "Italiano", "Spagnolo - Spagna", "Polacco", "Portoghese - Brasile", "Coreano", "Cinese semplificato", "Cinese tradizionale", "Giapponese"],
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '638000': {
+        "genres": ["Passatempo", "Indie", "Simulazione", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Russo", "Cinese semplificato", "Portoghese - Brasile", "Coreano", "Polacco"],
+        "metacriticScore": 80,
+        "price_overview": "1,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Statistiche", "Classifiche di Steam", "Include editor dei livelli"]
+    },
+    '1768280': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Giapponese", "Coreano"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam", "Notifiche di Steam dei turni"]
+    },
+    '1184370': {
+        "genres": ["Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato"],
+        "metacriticScore": 83,
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1102190': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "metacriticScore": 86,
+        "price_overview": "24,50€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet"]
+    },
+    '1480560': {
+        "genres": ["Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "6,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '1222730': {
+        "genres": ["Azione", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Cinese tradizionale"],
+        "metacriticScore": 79,
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Supporto completo per i controller", "Compatibile con VR", "Carte collezionabili di Steam"]
+    },
+    '1213210': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 82,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Workshop di Steam", "Steam Cloud", "Include editor dei livelli"]
+    },
+    '1364100': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Tedesco", "Cinese semplificato", "Giapponese", "Russo", "Coreano", "Cinese tradizionale", "Malese"],
+        "metacriticScore": 86,
+        "price_overview": "15,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Sottotitoli disponibili", "Steam Cloud"]
+    },
+    '839770': {
+        "genres": ["GDR", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato"],
+        "metacriticScore": 74,
+        "price_overview": "23,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '668550': {
+        "genres": ["Azione", "Avventura", "Indie"],
+        "supported_languages": ["Coreano", "Inglese", "Cinese semplificato", "Tedesco", "Spagnolo - Spagna", "Russo", "Giapponese", "Portoghese - Brasile", "Francese"],
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '971160': {
+        "genres": ["Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "19,50€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Steam Cloud"]
+    },
+    '1067540': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Portoghese - Brasile", "Russo", "Polacco"],
+        "metacriticScore": 76,
+        "price_overview": "21,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '944010': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Ungherese", "Russo", "Ceco", "Cinese semplificato"],
+        "price_overview": "9,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Steam Cloud"]
+    },
+    '333300': {
+        "genres": ["Avventura", "Indie", "GDR", "Strategia"],
+        "supported_languages": ["Inglese"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '289070': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 88,
+        "price_overview": "59,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP in LAN", "PvP locale a schermo condiviso", "Schermo condiviso", "Multigiocatore multipiattaforma", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Notifiche di Steam dei turni", "Remote Play sul tablet", "Remote Play Together"]
+    },
+    '1186040': {
+        "genres": ["Azione", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "14,99€",
+        "categories": ["Multigiocatore", "PvP", "PvP online", "Multigiocatore multipiattaforma", "Achievement di Steam", "Supporto completo per i controller"]
+    },
+    '1302050': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Giapponese", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam"]
+    },
+    '1000030': {
+        "genres": ["Azione", "Indie", "Simulazione", "Strategia"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 79,
+        "price_overview": "16,79€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '1708520': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Olandese", "Giapponese", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Spagnolo - America Latina", "Turco"],
+        "metacriticScore": 79,
+        "price_overview": "54,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '1101360': {
+        "genres": ["Azione", "Indie", "Corse", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Russo", "Giapponese", "Coreano", "Cinese semplificato", "Cinese tradizionale"],
+        "metacriticScore": 72,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Include editor dei livelli", "Remote Play Together"]
+    },
+    '1142390': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Cinese tradizionale", "Portoghese - Brasile", "Russo"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '1011190': {
+        "genres": ["Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Cinese semplificato", "Cinese tradizionale", "Giapponese", "Portoghese - Brasile", "Russo"],
+        "metacriticScore": 69,
+        "price_overview": "7,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam"]
+    },
+    '1013310': {
+        "genres": ["Avventura", "Indie", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato"],
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '1194010': {
+        "genres": ["GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Italiano", "Giapponese", "Coreano", "Polacco", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Turco"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Co-op locale a schermo condiviso", "Schermo condiviso", "Contenuti scaricabili", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Statistiche"]
+    },
+    '1342620': {
+        "genres": ["Avventura", "Indie", "GDR"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 78,
+        "price_overview": "12,49€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud"]
+    },
+    '1096570': {
+        "genres": ["Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Cinese semplificato", "Cinese tradizionale"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud"]
+    },
+    '859580': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Russo", "Spagnolo - America Latina", "Cinese semplificato"],
+        "metacriticScore": 76,
+        "price_overview": "39,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Steam Cloud"]
+    },
+    '431240': {
+        "genres": ["Passatempo", "Indie", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Giapponese"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Statistiche", "Include editor dei livelli", "Remote Play sul telefono", "Remote Play sul tablet", "Remote Play Together"]
+    },
+    '704270': {
+        "genres": ["Azione", "Avventura"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Russo", "Cinese semplificato", "Giapponese", "Polacco"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Partita cooperativa online", "Achievement di Steam", "Carte collezionabili di Steam", "Supporto parziale per i controller", "Steam Cloud"]
+    },
+    '718850': {
+        "genres": ["Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Giapponese", "Cinese semplificato", "Coreano"],
+        "metacriticScore": 81,
+        "price_overview": "49,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Carte collezionabili di Steam", "Workshop di Steam", "Supporto parziale per i controller", "Steam Cloud", "Remote Play sul tablet", "Remote Play Together"]
+    },
+    '716640': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Russo", "Cinese semplificato"],
+        "price_overview": "17,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Workshop di Steam", "Steam Cloud", "Classifiche di Steam"]
+    },
+    '6850': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese"],
+        "metacriticScore": 87,
+        "price_overview": "8,99€",
+        "categories": ["Giocatore singolo", "Steam Cloud"]
+    },
+    '570050': {
+        "genres": ["Azione"],
+        "supported_languages": ["Inglese", "Cinese tradizionale", "Cinese semplificato"],
+        "price_overview": "24,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "Co-op", "Co-op locale a schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play sulla TV", "Remote Play Together"]
+    },
+    '757300': {
+        "genres": ["Avventura", "Indie"],
+        "supported_languages": ["Inglese", "Tedesco", "Francese", "Spagnolo - Spagna", "Russo", "Ucraino", "Giapponese", "Coreano", "Polacco", "Cinese tradizionale", "Ceco", "Cinese semplificato"],
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam"]
+    },
+    '323190': {
+        "genres": ["Simulazione", "Strategia"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Spagnolo - Spagna", "Polacco", "Russo", "Cinese semplificato", "Portoghese - Brasile", "Turco", "Italiano", "Giapponese", "Coreano"],
+        "metacriticScore": 84,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul telefono", "Remote Play sul tablet"]
+    },
+    '640820': {
+        "genres": ["Avventura", "GDR"],
+        "supported_languages": ["Inglese", "Francese", "Tedesco", "Russo", "Cinese semplificato"],
+        "metacriticScore": 73,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Carte collezionabili di Steam", "Steam Cloud", "Remote Play sul tablet"]
+    },
+    '690790': {
+        "genres": ["Corse", "Simulazione", "Sport"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Polacco", "Portoghese - Brasile", "Giapponese"],
+        "metacriticScore": 84,
+        "price_overview": "19,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "Achievement di Steam", "Supporto completo per i controller", "Compatibile con VR", "Steam Cloud", "Valve Anti-Cheat attivato"]
+    },
+    '688420': {
+        "genres": ["Azione", "Indie", "Simulazione"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Portoghese - Brasile", "Russo", "Cinese semplificato", "Cinese tradizionale", "Coreano", "Turco"],
+        "price_overview": "14,99€",
+        "categories": ["Giocatore singolo", "Achievement di Steam", "Supporto completo per i controller", "Steam Cloud", "Remote Play sulla TV"]
+    },
+    '396900': {
+        "genres": ["Azione", "Indie", "Corse"],
+        "supported_languages": ["Inglese", "Francese", "Italiano", "Tedesco", "Spagnolo - Spagna", "Giapponese", "Coreano", "Polacco", "Russo", "Cinese semplificato", "Ungherese"],
+        "metacriticScore": 80,
+        "price_overview": "29,99€",
+        "categories": ["Giocatore singolo", "Multigiocatore", "PvP", "PvP online", "PvP locale a schermo condiviso", "Schermo condiviso", "Achievement di Steam", "Supporto completo per i controller", "Compatibile con VR", "Carte collezionabili di Steam", "Steam Cloud", "Classifiche di Steam", "Remote Play Together"]
+    }
+}
+
+// Extract genres from steamApiData
+export const genres = Object.values(steamApiData).reduce((allGenres, game) => {
+    if (game.genres) {
+        game.genres.forEach((genre) => {
+            if (!allGenres.includes(genre)) {
+                allGenres.push(genre);
+            }
+        });
+    }
+    return allGenres;
+}, []);
+
+// Extract categories from steamApiData
+export const categories = Object.values(steamApiData).reduce((allCategories, game) => {
+    if (game.categories) {
+        game.categories.forEach((category) => {
+            if (!allCategories.includes(category)) {
+                allCategories.push(category);
+            }
+        });
+    }
+    return allCategories;
+}, []);
+
+// Extract supported languages from steamApiData
+export const supportedLanguages = Object.values(steamApiData).reduce((allLanguages, game) => {
+    if (game.supported_languages) {
+        game.supported_languages.forEach((language) => {
+            if (!allLanguages.includes(language)) {
+                allLanguages.push(language);
+            }
+        });
+    }
+    return allLanguages;
+}, []);
